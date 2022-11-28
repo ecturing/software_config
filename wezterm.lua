@@ -3,11 +3,11 @@ local prog
 local font
 
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
-  prog = { 'C:/Users/32145/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/pwsh.exe' }
+  prog = { 'pwsh.exe' }
   font = 'JetBrains Mono'
 end
 if wezterm.target_triple == 'x86_64-unknown-linux-gnu' then
-  prog = { '/usr/bin/zsh' }
+  prog = { 'zsh' }
   font = 'JetBrains Mono'
 end
 return {
