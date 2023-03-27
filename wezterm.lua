@@ -28,6 +28,11 @@ return {
     {
       key = 'DownArrow', mods = 'CTRL',
       action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' },
+    },
+    {
+      key = 'D',
+      mods = 'CTRL',
+      action = wezterm.action.CloseCurrentPane { confirm = true },
     }
   },
 }
