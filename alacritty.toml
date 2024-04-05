@@ -83,6 +83,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 [window]
 decorations = "Full"
 title = "Alacritty"
+dynamic_title = false
 
 [window.dimensions]
 columns = 80
@@ -93,4 +94,4 @@ x = 22
 y = 22
 
 [shell]
-program="pwsh.exe"
+program="pwsh.exe -Nologo"
